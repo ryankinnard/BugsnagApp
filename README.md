@@ -1,2 +1,2 @@
 ﻿# BugsnagApp
-This application allows a user to register with their first and last name.
+This application will display a resgistered user's first and last name
