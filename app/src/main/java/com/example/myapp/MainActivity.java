@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         Map<String, Object> metadata = new HashMap<>();
 
         // Breadcrumb one
-        Bugsnag.leaveBreadcrumb("User clicks a button ", metadata, BreadcrumbType.USER);
+        Bugsnag.leaveBreadcrumb("User clicks a button", metadata, BreadcrumbType.USER);
         // Breadcrumb two
         Bugsnag.leaveBreadcrumb("User submits a form", metadata,
                 BreadcrumbType.PROCESS);
